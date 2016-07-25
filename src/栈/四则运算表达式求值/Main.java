@@ -8,9 +8,10 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 		
 		String zhongzui = sc.nextLine();
-		String houzui = Convert.convert(zhongzui);
+		String houzui = Convert2.convert(zhongzui);   //中缀转后缀
 		
-		System.out.println(Count.count(houzui));
+		System.out.println(houzui);
+		System.out.println(Count2.count(houzui));     //计算后缀
 		
 	}
 
